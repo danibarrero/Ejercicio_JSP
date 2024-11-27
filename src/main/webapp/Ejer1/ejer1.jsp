@@ -7,10 +7,12 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Ejercicio 1</title>
+    <link href="../styles/style.css" rel="stylesheet" />
+</head>
+<body>
+    <span class="cork">Datos personales: </span>
+    <span>Daniel Barrero Sojo</span>
+</body>
 </html>
