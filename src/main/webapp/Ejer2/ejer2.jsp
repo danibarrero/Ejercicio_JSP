@@ -42,15 +42,14 @@
         //     }
         // })
 
-        function validar() {
-            let idioma = document.getElementById("idioma").valueOf();
-            if(idioma == "def") {
-                alert('Rellena el campo: )');
-            } else {
-                let formulario = document.getElementById("formluario");
-                formulario.submit
+        function validate(){
+            let idioma = document.getElementById("idioma").value;
+            if(idioma == "def"){
+                alert('rellena el campo :)');
             }
-        }
+            else{ formulario.submit();
+            }
+        };
     </script>
 </body>
 </html>
