@@ -1,10 +1,4 @@
-<%@ page import="org.iesvdm.ejercicio_jsp.HelloServlet" %><%--
-  Created by IntelliJ IDEA.
-  User: Daniel
-  Date: 10/12/2024
-  Time: 11:03
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="org.iesvdm.ejercicio_jsp.HelloServlet" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

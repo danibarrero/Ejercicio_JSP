@@ -1,11 +1,5 @@
 <%@ page import="java.util.Objects" %>
-<%@ page import="java.util.Set" %><%--
-  Created by IntelliJ IDEA.
-  User: Daniel
-  Date: 25/11/2024
-  Time: 12:39
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="java.util.Set" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

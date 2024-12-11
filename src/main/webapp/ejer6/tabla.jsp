@@ -6,7 +6,7 @@
 </head>
 <body>
     <h3>Tabla de Multiplicar</h3>
-    <table border="3">
+    <table>
         <thead>
         <tr>
             <th>Número</th>

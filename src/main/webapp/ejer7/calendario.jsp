@@ -33,7 +33,7 @@
             String[] diasSemana = {"L", "M", "X", "J", "V", "S", "D"};
     %>
     <h3>Calendario de <%= mesStr.substring(0, 1).toUpperCase() + mesStr.substring(1) %> de <%= año %></h3>
-    <table border="1">
+    <table>
         <tr>
             <% for (String dia : diasSemana) { %>
             <th><%= dia %></th>
