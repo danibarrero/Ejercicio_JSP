@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>Ejercicio 1</title>
-    <link href="../styles/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
 </head>
 <body>
     <span class="cork">Datos personales: </span>

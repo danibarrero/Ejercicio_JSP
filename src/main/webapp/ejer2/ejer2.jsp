@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>Ejercicio 2</title>
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css"></head>
 <body>
     <form method="post" action="respuesta2.jsp">
         <h3>Saludo en varios idiomas</h3>
@@ -34,22 +34,15 @@
     </form>
 
     <script>
-        // let lang = document.getElementById("idioma");
-        // let boton = document.querySelector("button[type='submit']");
-        // boton.addEventListener("click", (e) => {
-        //     if (lang.value == "def") {
-        //         e.preventDefault();
-        //     }
-        // })
-
-        function validate(){
+        function validate() {
             let idioma = document.getElementById("idioma").value;
-            if(idioma == "def"){
-                alert('rellena el campo :)');
+            if(idioma === "") {  // Validamos si el valor del select está vacío
+                alert('Rellena el campo : ');
+                return false;  // Impide el envío del formulario
+            } else {
+                return true;  // Permite el envío del formulario
             }
-            else{ formulario.submit();
-            }
-        };
+        }
     </script>
 </body>
 </html>

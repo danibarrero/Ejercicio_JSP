@@ -9,7 +9,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Respuesta</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
 </head>
 <body>
     <%
@@ -20,10 +21,7 @@
         String saludo = "";
 
         // VAVLIDACIÓN FORMULARIO
-        if (Objects.nonNull(nombre)
-                && nombre.length() > 2 &&
-               Objects.nonNull(idioma)
-        ){
+        if (Objects.nonNull(nombre) && nombre.length() > 2 && Objects.nonNull(idioma)) {
             saludo = switch (idioma) {
                 case "es" -> "Hola " + nombre;
                 case "en" -> "Hello " + nombre;
@@ -31,14 +29,12 @@
                 case "nl" -> "Hallo " + nombre;
                 default -> "Idioma " + idioma + " no soportado";
             };
-
-
     %>
 
     <span><%= saludo %></span>
 
     <% } else { %>
-            <span>No Funciona</span>
+        <span>No Funciona</span>
     <% } %>
 </body>
 </html>
